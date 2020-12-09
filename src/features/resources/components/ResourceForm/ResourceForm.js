@@ -42,7 +42,7 @@ const ResourceForm = ({
 
                 setFormState({...formState, [name]: desc.fromOptions?.(newOptions) ?? newOptions});
               }}>
-              <option disabled value={fieldValue}>{fieldValue || 'Choose option/options'}</option>
+              <option className="dummyOption" value={fieldValue}>--- {fieldValue || 'Choose option/options'} ---</option>
               {(desc.options || []).map(option => <option key={option} value={option}>{option}</option>)}
             </select>
           );

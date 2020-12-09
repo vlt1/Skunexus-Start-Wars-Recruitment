@@ -120,7 +120,7 @@ export const defaultHeaders = {
 export const makeTablePageTitle = (type) => `Star Wars ${type[0].toUpperCase()}${type.slice(1)}`;
 export const makeTableWithSourcePageTitle = (type, sourceType, sourceName) => {
   if (type === 'films') {
-    return `Films ${sourceName} has been featured in`;
+    return `Films ${sourceName} was featured in`;
   }
   if (type === 'people') {
     if (sourceType === 'planets') {
