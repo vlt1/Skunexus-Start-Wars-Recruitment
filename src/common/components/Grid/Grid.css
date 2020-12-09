@@ -28,3 +28,16 @@
 .gridActions button {
   margin: 0 5px;
 }
+
+.gridTable .gridCell.number {
+  text-align: right;
+}
+
+.gridTable .gridCell.actions {
+  display: flex;
+  justify-content: center;
+}
+
+.gridTable .gridCell.actions .toolbar {
+  display: inline-block;
+}

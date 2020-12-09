@@ -1,0 +1,22 @@
+.resourceForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.resourceForm .field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+
+.resourceForm .field label {
+  margin-bottom: 4px;
+}
+
+.resourceForm .field input {
+  flex-grow: 1;
+}
+
+.resourceForm .submit {
+  margin-top: 10px;
+}

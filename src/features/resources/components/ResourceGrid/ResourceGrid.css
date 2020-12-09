@@ -1,0 +1,41 @@
+.fetching {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  text-align: center;
+  padding: 150px 0;
+  background: #fc9c9c;
+}
+
+td .fetching {
+  display: block;
+  height: auto;
+}
+
+td .fetching .spinner {
+  width: 10px;
+  height: 10px;
+  border-width: 5px;
+  margin: 0 auto;
+}
+
+.error-cell {
+  background: #fc9c9c;
+}
+
+.gridTable tbody tr:hover .error-cell {
+  background: #fc9c9c;
+}
+
+.td .error {
+  padding: 0;
+  background: transparent;
+}
+
+.error-cell .error {
+  padding: 0;
+}

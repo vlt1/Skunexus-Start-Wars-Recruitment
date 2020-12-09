@@ -1,0 +1,42 @@
+.modalContainer {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.modal {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  top: 200px;
+  background-color: #fff;
+}
+
+.modal .header {
+  flex-shrink: 0;
+}
+
+.modal .body {
+  flex-grow: 1;
+  padding: 6px;
+}
+
+.titleHeader {
+  display: flex;
+  padding: 10px;
+  background-color: #d3d3d3;
+}
+
+.titleHeader .title {
+  flex-grow: 1;
+}
+
+.titleHeader .closeIcon:hover {
+  color: red;
+  cursor: pointer;
+}
